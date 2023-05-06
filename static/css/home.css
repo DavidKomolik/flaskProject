@@ -150,6 +150,11 @@ ul li a {
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.55);
   margin: auto;
 }
+
+[data-theme="dark"] .terminal {
+  background-color: rgba(80, 80, 80, 0.2);!important;
+}
+
 #terminal .terminal .window-title {
   background: linear-gradient(top, #dedede, #c0c0c0);
   width: calc(100% - 16px);
@@ -238,6 +243,9 @@ ul li a {
 #terminal .message span a {
   font-family: "Source Code Pro", monospace;
   border-bottom: 1px dotted rgba(255, 255, 255, 0.75);
+}
+[data-theme="dark"] .message span a {
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.25); !important;
 }
 #terminal .message form input {
   background: transparent;
