@@ -1,2 +1,15 @@
+blinker
+click
+feedgen
 Flask
-Gunicorn
+Flask-HTTPAuth
+Flask-Mail
+Flask-SQLAlchemy
+Flask-WTF
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+SQLAlchemy
+Werkzeug
+WTForms
