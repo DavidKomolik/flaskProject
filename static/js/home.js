@@ -3,7 +3,8 @@ $(function() {
   $(".typed").typed({
     strings: [
       "stat dave<br/>" +
-      "><span class='caret'>$</span> job: Testing Engineer at GlobalLogic<br/> ^100" +
+      "><span class='caret'>$</span> job: Test Automation Engineer at GlobalLogic<br/> ^100" +
+      "><span class='caret'>$</span> specialization: Healthcare<br/> ^100" +
       "><span class='caret'>$</span> skills: Python, C++, SQL, ML<br/> ^100" +
       "><span class='caret'>$</span> hobbies: hiker, mountain-biker, traveller<br/> ^300" +
       "><span class='caret'>$</span> alias: Dave<br/> ^300" +
