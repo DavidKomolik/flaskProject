@@ -23,7 +23,16 @@
         <li><a class="navbar-ref" href="/">Home</a></li>
         <li><a class="navbar-ref" href="/">Timeline: WIP</a></li>
         <li><a class="navbar-ref" href="/">Projects: WIP</a></li>
-        <li><a class="navbar-ref" href="/">Reading: WIP</a></li>
+{#        <li><a class="navbar-ref" href="/">Dark Mode</a></li>#}
+        <li>
+            <label>Dark Mode</label>
+            <div class="slider_container">
+                <label class="switch" style="scale: 0.5; margin-bottom: 0.5rem">
+                  <input type="checkbox" id="darkSwitch">
+                  <span class="slider round"></span>
+                </label>
+            </div>
+        <script src="{{ url_for('static', filename = 'js/dark-mode-switch.min.js') }}"></script></li>
     </ul>
 </div>
 {% block body %}
